@@ -1,0 +1,42 @@
+body{
+    color:aqua;
+    background-image:url(https://www.shutterstock.com/shutterstock/photos/2389525731/display_1500/stock-photo-hd-wallpaper-mountains-landscapes-moon-lakes-reflections-x-nature-mountains-hd-art-2389525731.jpg);
+    background-size:cover;
+    margin:30%;
+    align-items: center;
+    text-align: center;
+    border-style:solid;
+    border-radius:5%;
+}
+input{
+    padding:5%;
+    border-radius:20px;
+    width:100%;
+    background-color:transparent ;
+    text-emphasis-color: white;
+}
+i{
+    align-items: right;
+    color:white;
+    position:relative;
+    left:40%;
+    top:-40px;
+    transform:translateY(-30%);
+    font-size:20px;
+}
+h1{
+    color:white;
+}
+button{
+    background-color:white;
+    color:blue;
+    width:50%;
+    border-radius:20px;
+    font-style:bold ;
+    box-shadow:1px 2px 2px rgb(47, 4, 238),2px 2px 2px rgb(236, 236, 240);
+}   
+button:hover{
+    background-color:blue;
+    color:rgb(248, 248, 250);
+    box-shadow:1px 2px 2px white,2px 2px 2px blue;
+}

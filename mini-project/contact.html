@@ -1,0 +1,94 @@
+<html>
+    <title>Contact</title>
+    <head>
+        <style>
+            .b{
+                background-image:url("https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRU4UPHk65ZLn0onLDLOEf4Ux2swswwf7wlUYMkq42xVUQUDekrAQ1pKkctZLAboSzc") ;
+                background-size: 100%;
+                border-radius:10px;
+                text-align: center;
+                color:rgb(1, 19, 19);
+                padding: 100px;
+                padding-left:20px ;
+                padding-right:20px;
+                
+            }
+            .w{
+                color:white;
+                text-align: justify;
+                text-align: center;
+                margin-left:0;
+                margin-right:10px;
+                display:inline;
+            }
+            .w:hover{
+                color:rgb(6, 244, 26);
+                
+            }
+            .a{
+                margin-bottom: 5%;
+            }
+            .c{
+                color:white;
+                text-align: center;
+                text-align: justify;
+            }
+            th{
+                vertical-align: middle;
+                align-items: center;
+                
+            }
+            table{
+                align-items: center;
+                color:rgb(4, 4, 4);
+               
+            }
+            textarea{
+                margin-right:40%;
+                border-radius: 10px;
+                font-size: larger;
+            }
+            .btn{
+                align-items: center;
+                box-shadow: 5px 5px 5px rebeccapurple,3px 3px 3px blue;
+            }
+            .btn:hover{
+                color:white;
+                background-color:blue;
+                border-radius:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="b">
+        <header>
+            <marquee speed="20%"><i>Thankyou for visting</i></marquee>
+            <h2>Contact Details</h2>
+            <div class = "w">
+            <nav>
+            <table border="0">
+            <th width="85%" align="left"><a href="Home.html"><div class = "w">Back to home</div></a></th>
+            <th ><a href="About.html"><div class = "w">Back to About</div></a></th>
+            
+            </table>
+            </nav></div>
+            <script src="contact.js"></script>
+            <form module = "post" onsubmit = "return a()" action = "Home.html"><fieldset>
+                <legend>Contact Details</legend></font>
+                <table border = "0" width="50%"><th>Name:</th><th><input type="text" id="name" placeholder="Full name"></th></table>
+                <table border = "0" width="50%"><th>Email:</th><th><input type="email" id="email" placeholder="email"></th></table>
+                <table border = "0" width="50%"><th>Phone:</th><th><input type="tel" id="phone" placeholder="phone number"></th></table>
+                <table border = "0" width="50%" align="left"><th>Description:</th></table><br>
+                <textarea cols="30" rows="5"></textarea><br><br>
+                <center><button type = "submit" id="submit" class = "btn">Submit</button></center>
+            </fieldset></form>
+               
+            <br>
+            <center><footer><th width="10%"><a href="project-1.html"><div class = "w">Exit</div></a></th></footer></center>
+            <center>You can't exit from here</center>
+        </div>
+            
+        </div>
+        </div>
+    </body>
+</html>

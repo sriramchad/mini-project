@@ -1,0 +1,133 @@
+<html></html>
+    <head>
+        <title>
+            Registeration_page
+        </title>
+        <link rel="stylesheet" href="mini.css">
+    </head>
+    <body>
+        <script src ="validation.js"></script>
+        <h1>Registeration_page</h1>
+        <form module = "post" onsubmit="return a()" action = "login.html"><fieldset><legend><h3>Enter Your Personal Details</h3></legend>
+        <label for ="text">
+            Enter your name:
+        <input type = "text" placeholder="firstname" id = "name">
+        <input type = "text" placeholder="middlename" id = "name">
+        <input type = "text" placeholder="lastname" id = "name">
+        </label><br><br>
+        <label for = "tel">
+            Contact details:
+            <input type = "tel"  pattern="{0-9{10}}" value = "+91" placeholder="primary contact" id = "phone" required>
+            <input type = "tel"  pattern="{0-9{10}}" value = "+91" placeholder="primary contact" id = "phone" required>
+        </label><br><br>
+        <label for ="radio">
+            Gender:
+            <input type = "radio" name = "gender" id="M">Male
+            <input type = "radio" name = "gender"id="F">Female
+        </label><br><br>
+         <label for = "email">
+            Enter your mail:
+            <input type="email" name="email" id="email" placeholder="primary" required><br>
+            Create Your password:
+            <input type="text" name="pass" id="pass" placeholder = "password" required><br>
+            Conform Password:
+            <input type="password" name="pass" id="pass1" placeholder = "conform" required>
+
+         </label><br><br>
+         <label for = "date"></label>
+            Enter your DOB:
+            <input type="date" name="date" id="email"required>
+         </label><br><br>
+         Address:<br>
+         State:
+         <select>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option >Assam</option>
+            <option >Bihar</option>
+            
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+</select><br>
+Pincode:
+<input type="tel" name="phone" pattern="{0-9{6}}" id ="pin" placeholder="000000" required><br>Street:
+<input type="text"><br>Village/Town/city:<input type="text"><br>
+         </select><br><br>
+        </fieldset>
+         <fieldset><legend><h3>Education Details:</h3></legend>
+         <table border="1">
+            <tr><b>
+                <th>Degree</th>
+                <th>Institute</th>
+                <th>CGPA</th>
+                <th> Backlogs</th>
+            </b></tr>
+            <tr>
+                <td><textarea rows="2" cols="20"></textarea></td>
+                <td><textarea rows="2" cols="15"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+            </tr>
+            <tr>
+                <tr>
+                <td><textarea rows="2" cols="20"></textarea></td>
+                <td><textarea rows="2" cols="15"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+            </tr>
+            </tr>
+                <td><textarea rows="2" cols="20"></textarea></td>
+                <td><textarea rows="2" cols="15"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><textarea rows="2" cols="20"></textarea></td>
+                <td><textarea rows="2" cols="15"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+                <td><textarea rows="2" cols="5"></textarea></td>
+            </tr>
+         </table><br>
+        
+         How many programing languages known:<br>
+         <input type="checkbox">c lang<br>
+         <input type="checkbox">c++<br>
+         <input type="checkbox">java<br>
+         <input type="checkbox">python<br>
+         <input type="checkbox">html<br>
+         <input type="checkbox">node js<br>
+         <input type="checkbox">angular js<br>
+         <input type="checkbox">sql<br>
+         English fluence level:
+         
+         <input type="range" value="eng"></fieldset>
+         <fieldset><legend><h3>File acceptence</h3></legend>
+         upload accomplisment video file:<br>
+         <input type = "file" id="filename" accept="video/*">
+         <br>
+         <label for = "file">
+            Upload Resume:<br>
+            <input type = "file">
+         </label></fieldset><br>
+         <label for = "submit">
+            <div class="btn">
+            <button type = "submit">
+            Submit</button>
+         </label>
+        </form>
+    </body>
+</html>
